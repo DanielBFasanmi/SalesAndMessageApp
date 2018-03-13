@@ -36,8 +36,6 @@ public class SMProTest {
  * the message sent are generated from Transaction Message class
  * the terminal thread runs in a while loop until a condition is met 
  * it prints out "we are pausing"
- * 
- * *
  * @author 1412625
  */
 class Terminal implements Callable<Void>{
@@ -51,7 +49,6 @@ class Terminal implements Callable<Void>{
         this.r = r;
     }
 
-    
     @Override
     public Void call() {
         do{

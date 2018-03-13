@@ -12,8 +12,5 @@ package smpro;
 public enum Operation {
     // the enum class holds the possible adjustment operation that could be applied to all stored product of a particular type 
 
-    /**
-     *
-     */
     Add, Subtract, Multiply, Insert
 }

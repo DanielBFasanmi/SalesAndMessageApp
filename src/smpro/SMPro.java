@@ -22,7 +22,6 @@ public class SMPro {
     private Map<String, Sale> saleLog;
 
 
-
     public SMPro() {
         this.messageLog = new ArrayList<>();
         saleLog = new HashMap<>();
