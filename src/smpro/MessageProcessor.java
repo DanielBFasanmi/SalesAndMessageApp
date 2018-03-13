@@ -28,7 +28,6 @@ public class MessageProcessor {
       
       Pattern r = Pattern.compile(pattern);
 
-
       Matcher matcher = r.matcher(line);
       if (matcher.find()) {
         if(matcher.group(1) != null){

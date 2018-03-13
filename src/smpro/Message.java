@@ -17,6 +17,7 @@ package smpro;
 public class Message {
     private String messageType, info;
     
+   
     public String getMessageType() {
         return messageType;
     }

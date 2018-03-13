@@ -4,14 +4,12 @@
  * and open the template in the editor.
  */
 package smpro;
-import static java.lang.Math.random;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Random;
-import java.util.Set;
-import java.util.TreeSet;
+
 
 /**
  *
@@ -44,8 +42,7 @@ public class TransactionMessages {
         spec.put("mango", 5.00);
         spec.put("pear", 1.50);
         spec.put("orange", 3.06);
-        spec.put("berry", 2.00);
-       
+        spec.put("berry", 2.00); 
     }
     
     public static void main(String[] args) {
