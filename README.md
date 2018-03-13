@@ -2,7 +2,7 @@
 A message Processing Application.
 #
 The SMProTest class is the entry point of the application. 
-The SalesAndMessageApp is desktop application that takes in messages from external source (in our case a terminal object which implements interface Callable), processes it and performs create or update operation as desired by the sending source. This application has been created according to the processing requirement given.<br />
+The SalesAndMessageApp is desktop application that takes in messages from external source (in our case a terminal object which implements interface Callable), processes it and performs create or update operation as desired by the sending source. This application had been created according to the processing requirement given.<br />
 The application uses collections to hold information about each sale transaction or adjustment transaction perform. It displays a comprehensive information to the user after a number of transaction has been made (in our case, to the console). Reports are displayed to the user after ever 10 transaction performed. This report shows the number of sales of each product and their total value.<br />
 Transaction messages could be of the following types:
 1.	Message Type 1 – contains the details of 1 sale E.g apple at 10p
@@ -15,5 +15,5 @@ When each object runs, it calls a static method of class TransactionMessage whic
 The application derives meaning from each transaction message sent from each terminal object, using pattern matching. It chunks out the price, quantity, product name, the operation and the message type. 
 The SMPro, Sales and Message objects are created. These objects are initialized accordingly with the chunked information saved in the string array. 
 The terminal objects calls on the synchronized method of object of class Sale. The object is responsible for all operations (insert, add, subtract, multiply) performed on each sale. The methods are synchronized to prevent multiple thread from calling the method at the same time. 
-When 50 messages has been sent to the application stops receiving messages from the terminal object, each terminal objects logs we are pausing to the console and terminates internally. The application also logs information about every adjustment made to each item.
+When 50 messages had been sent to the application, the application stopped receiving messages from the terminal object, each terminal objects logs "we are pausing" to the console and terminates internally. The application also logs information about every adjustment made to each item.
 The application uses List and Map collection to save the created objects for future references.
